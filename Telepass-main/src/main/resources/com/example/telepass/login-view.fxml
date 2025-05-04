@@ -19,10 +19,10 @@
     </Label>
 
     <!-- Campo di input per l'username -->
-    <TextField fx:id="usernameField" promptText="Username" styleClass="input-field" />
+    <TextField fx:id="usernameField" promptText="Username" styleClass="input-field" maxWidth="200" />
 
     <!-- Campo di input per la password -->
-    <PasswordField fx:id="passwordField" promptText="Password" styleClass="input-field" />
+    <PasswordField fx:id="passwordField" promptText="Password" styleClass="input-field" maxWidth="200"/>
 
     <!-- Pulsante di login -->
     <Button text="Accedi" onAction="#onLoginClick" styleClass="login-button" />
